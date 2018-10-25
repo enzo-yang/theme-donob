@@ -15,7 +15,7 @@ html, body {
   height: 100%;
 }
 body {
-  font-family: -apple-system-font, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   position: relative;
   overflow-x: hidden;
   overflow-y: scroll;
@@ -40,15 +40,6 @@ a {
   position: relative;
   border-bottom: 1px solid #eee;
   overflow: hidden;
-}
-.header:before {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="500"><rect x="0" width="39" height="100%" style="fill:#28a1d8"/><rect x="39" width="2" height="100%" style="fill:#248bc7"/><rect x="41" width="11" height="100%" style="fill:#1e3955"/><rect x="52" width="56" height="100%" style="fill:#2f5132"/><rect x="108" width="160" height="100%" style="fill:#416828"/><rect x="268" width="4" height="100%" style="fill:#7eaa29"/><rect x="272" width="11" height="100%" style="fill:#dcbd42"/><rect x="283" width="7" height="100%" style="fill:#dcad27"/><rect x="290" width="6" height="100%" style="fill:#e39a23"/><rect x="296" width="26" height="100%" style="fill:#cc554c"/><rect x="322" width="16" height="100%" style="fill:#ca473f"/><rect x="338" width="12" height="100%" style="fill:#a72834"/><rect x="350" width="62" height="100%" style="fill:#735675"/><rect x="412" width="61" height="100%" style="fill:#653e66"/><rect x="473" width="27" height="100%" style="fill:#3b315b"/></svg>');
-  background-repeat: repeat-x;
-  content: '';
-  height: 3px;
 }
 .header a {
   color: #444;
@@ -127,6 +118,7 @@ a {
   font-size: 14px;
 }
 .list li > a {
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
   display: inline-block;
   margin: 10px 0 20px 0;
   color: #333;
@@ -225,7 +217,7 @@ a {
   font-weight: 500;
   line-height: 1.4;
   margin-top: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 .time {
   color: #999;
@@ -237,12 +229,13 @@ a {
 
 /* article content */
 .content {
+  font-family: "Courier", "Songti SC", "FangSong", serif;
   color: #333;
   margin-top: 50px;
   word-break: break-all;
 }
 .content p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.8;
   margin-bottom: 24px;
 }
@@ -565,8 +558,5 @@ table tr th :last-child, table tr td :last-child {
   }
   .content {
     margin-top: 20px;
-  }
-  .content p {
-    font-size: 14px;
   }
 }
